@@ -1,0 +1,5 @@
+# Conclusiones
+
+- Al construir los escenarios se vio que era mejor tener 3 escenarios para lo solicitado por el ejercicio del challenge y tenerlos en archivos feature separados y además estos consumen de un feature reusar.feature la creación del usuario, aprovechando asi la reutilización.
+- Debido a que al crear y actualizar la respuesta a los requests no devuelve datos del usuario, se debió buscar al usuario en base a su username, luego de crear o actualizar para continuar en cada caso.
+- Se observó que al crear un usuario con un mismo username la api sí lo permite teniendo un id interno para cada uno, entonces la mejor forma que se encontró para probar fue eliminar al usuario creado al final escenario de creación y actualización, para que al volver a ejecutar el test no hubieran problemas en las comprobaciones.
