@@ -22,6 +22,8 @@ Para poder ejecutar el proyecto se debe instalar previamente las siguientes herr
   Cada uno de los 3 escenarios tiene su propio archivo csv de donde carga datos para realizar la prueba
   
   Los escenarios que crean y actualizan un usuario, al final del mismo lo borran para que esté no esté creado en la próxima ejecución de los escenarios de pruebas
-  
 
 
+
+## Instrucciones para visualizar Reportes de los Resultados de los tests ejecutados
+- - Luego de haber ejecutado un test se puede visualizar el reporte accediendo desde la ventana de herramientas _Project_ de IntelliJ IDEA, ubicando el archivo _build/karate-reports/karate-summary.html_, dar clic derecho del mouse sobre el archivo, luego -> Open in -> Browser, y seleccionar un navegador.
